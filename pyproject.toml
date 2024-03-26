@@ -1,12 +1,27 @@
 [tool.poetry]
 name = "dashbord"
 version = "0.1.0"
-description = "dashbord streamlit"
-authors = ["GMATHE"]
-license = "LGPL"
-readme = "README.md"
+description = "Dashbord_streamlit"
+authors = ["gmathe"]
+license = "toto"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<4"
-path = "^16.10.0"
-ruamel-yaml = "^0.18.6"
+python = "^3.10"
+streamlit = "^1.32.2"
+pandas = "^2.2.1"
+plotly = "^5.20.0"
+logging = "^0.4.9.6"
+resources = "^0.0.1"
+scipy = "^1.12.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+mypy = "^1.9.0"
+pytest = "^8.1.1"
+ruff = "^0.3.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
