@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "dashbord"
+version = "0.1.0"
+description = "dashbord streamlit"
+authors = ["GMATHE"]
+license = "LGPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4"
+path = "^16.10.0"
+ruamel-yaml = "^0.18.6"
